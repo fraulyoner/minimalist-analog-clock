@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 
     watch: {
       demo: {
-        files: ['index.html'],
+        files: ['demo/*.html', 'demo/*.css', 'css/*.css'],
         options: {
           livereload: 23421
         }
@@ -22,7 +22,7 @@ module.exports = function (grunt) {
           port: 8000,
           livereload: 23421,
           open: {
-            target: 'http://localhost:8000/index.html'
+            target: 'http://localhost:8000/demo/index.html'
           }
         }
       }

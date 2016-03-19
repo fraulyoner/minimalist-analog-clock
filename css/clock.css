@@ -9,7 +9,7 @@
   height: 180px;
   margin: 0 auto;
   position: relative;
-  border: 8px solid #71BAB0;
+  border: 8px solid #6F90A2;
   border-radius: 50%;
   background: #FFF; }
   .minimalist-clock .minimalist-clock--face {
@@ -22,7 +22,7 @@
       width: 12px;
       height: 12px;
       margin: -6px 0 0 -6px;
-      background: #71BAB0;
+      background: #6F90A2;
       border-radius: 6px;
       content: "";
       display: block; }
@@ -34,7 +34,7 @@
       left: 50%;
       margin: -4px 0 -4px -25%;
       padding: 4px 0 4px 25%;
-      background: #71BAB0;
+      background: #6F90A2;
       transform-origin: 100% 50%;
       border-radius: 4px 0 0 4px; }
       .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="1"] {
@@ -93,7 +93,7 @@
       left: 50%;
       margin: -40% -3px 0;
       padding: 40% 3px 0;
-      background: #71BAB0;
+      background: #6F90A2;
       transform-origin: 50% 100%;
       border-radius: 3px 3px 0 0; }
       .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="1"] {
@@ -224,7 +224,7 @@
       left: 50%;
       margin: -40% -1px 0 0;
       padding: 40% 1px 0;
-      background: #71BAB0;
+      background: #6F90A2;
       transform-origin: 50% 100%; }
       .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="1"] {
         transform: rotate(6deg); }

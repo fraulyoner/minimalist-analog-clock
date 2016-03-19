@@ -1,0 +1,22 @@
+{
+  "name": "minimalist-analog-clock",
+  "version": "0.1.0",
+  "homepage": "https://github.com/fraulyoner/minimalist-analog-clock",
+  "authors": [
+    "Aljona Murygina <aljona.mu@gmail.com>"
+  ],
+  "main": [
+    "css/clock.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "demo",
+    "sass",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ]
+}

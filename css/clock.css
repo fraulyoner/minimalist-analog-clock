@@ -37,6 +37,54 @@
       background: #71BAB0;
       transform-origin: 100% 50%;
       border-radius: 4px 0 0 4px; }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="1"] {
+        transform: rotate(120deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="2"] {
+        transform: rotate(150deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="3"] {
+        transform: rotate(180deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="4"] {
+        transform: rotate(210deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="5"] {
+        transform: rotate(240deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="6"] {
+        transform: rotate(270deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="7"] {
+        transform: rotate(300deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="8"] {
+        transform: rotate(330deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="9"] {
+        transform: rotate(360deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="10"] {
+        transform: rotate(390deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="11"] {
+        transform: rotate(420deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="12"] {
+        transform: rotate(450deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="13"] {
+        transform: rotate(120deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="14"] {
+        transform: rotate(150deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="15"] {
+        transform: rotate(180deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="16"] {
+        transform: rotate(210deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="17"] {
+        transform: rotate(240deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="18"] {
+        transform: rotate(270deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="19"] {
+        transform: rotate(300deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="20"] {
+        transform: rotate(330deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="21"] {
+        transform: rotate(360deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="22"] {
+        transform: rotate(390deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="23"] {
+        transform: rotate(420deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="24"] {
+        transform: rotate(450deg); }
     .minimalist-clock .minimalist-clock--face .minimalist-clock--minute {
       width: 0;
       height: 0;
@@ -48,6 +96,126 @@
       background: #71BAB0;
       transform-origin: 50% 100%;
       border-radius: 3px 3px 0 0; }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="1"] {
+        transform: rotate(6deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="2"] {
+        transform: rotate(12deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="3"] {
+        transform: rotate(18deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="4"] {
+        transform: rotate(24deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="5"] {
+        transform: rotate(30deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="6"] {
+        transform: rotate(36deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="7"] {
+        transform: rotate(42deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="8"] {
+        transform: rotate(48deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="9"] {
+        transform: rotate(54deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="10"] {
+        transform: rotate(60deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="11"] {
+        transform: rotate(66deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="12"] {
+        transform: rotate(72deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="13"] {
+        transform: rotate(78deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="14"] {
+        transform: rotate(84deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="15"] {
+        transform: rotate(90deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="16"] {
+        transform: rotate(96deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="17"] {
+        transform: rotate(102deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="18"] {
+        transform: rotate(108deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="19"] {
+        transform: rotate(114deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="20"] {
+        transform: rotate(120deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="21"] {
+        transform: rotate(126deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="22"] {
+        transform: rotate(132deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="23"] {
+        transform: rotate(138deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="24"] {
+        transform: rotate(144deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="25"] {
+        transform: rotate(150deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="26"] {
+        transform: rotate(156deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="27"] {
+        transform: rotate(162deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="28"] {
+        transform: rotate(168deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="29"] {
+        transform: rotate(174deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="30"] {
+        transform: rotate(180deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="31"] {
+        transform: rotate(186deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="32"] {
+        transform: rotate(192deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="33"] {
+        transform: rotate(198deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="34"] {
+        transform: rotate(204deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="35"] {
+        transform: rotate(210deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="36"] {
+        transform: rotate(216deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="37"] {
+        transform: rotate(222deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="38"] {
+        transform: rotate(228deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="39"] {
+        transform: rotate(234deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="40"] {
+        transform: rotate(240deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="41"] {
+        transform: rotate(246deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="42"] {
+        transform: rotate(252deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="43"] {
+        transform: rotate(258deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="44"] {
+        transform: rotate(264deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="45"] {
+        transform: rotate(270deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="46"] {
+        transform: rotate(276deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="47"] {
+        transform: rotate(282deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="48"] {
+        transform: rotate(288deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="49"] {
+        transform: rotate(294deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="50"] {
+        transform: rotate(300deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="51"] {
+        transform: rotate(306deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="52"] {
+        transform: rotate(312deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="53"] {
+        transform: rotate(318deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="54"] {
+        transform: rotate(324deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="55"] {
+        transform: rotate(330deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="56"] {
+        transform: rotate(336deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="57"] {
+        transform: rotate(342deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="58"] {
+        transform: rotate(348deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="59"] {
+        transform: rotate(354deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--minute[data-minute="60"] {
+        transform: rotate(360deg); }
     .minimalist-clock .minimalist-clock--face .minimalist-clock--second {
       width: 0;
       height: 0;
@@ -58,5 +226,125 @@
       padding: 40% 1px 0;
       background: #71BAB0;
       transform-origin: 50% 100%; }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="1"] {
+        transform: rotate(6deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="2"] {
+        transform: rotate(12deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="3"] {
+        transform: rotate(18deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="4"] {
+        transform: rotate(24deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="5"] {
+        transform: rotate(30deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="6"] {
+        transform: rotate(36deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="7"] {
+        transform: rotate(42deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="8"] {
+        transform: rotate(48deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="9"] {
+        transform: rotate(54deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="10"] {
+        transform: rotate(60deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="11"] {
+        transform: rotate(66deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="12"] {
+        transform: rotate(72deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="13"] {
+        transform: rotate(78deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="14"] {
+        transform: rotate(84deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="15"] {
+        transform: rotate(90deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="16"] {
+        transform: rotate(96deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="17"] {
+        transform: rotate(102deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="18"] {
+        transform: rotate(108deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="19"] {
+        transform: rotate(114deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="20"] {
+        transform: rotate(120deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="21"] {
+        transform: rotate(126deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="22"] {
+        transform: rotate(132deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="23"] {
+        transform: rotate(138deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="24"] {
+        transform: rotate(144deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="25"] {
+        transform: rotate(150deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="26"] {
+        transform: rotate(156deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="27"] {
+        transform: rotate(162deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="28"] {
+        transform: rotate(168deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="29"] {
+        transform: rotate(174deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="30"] {
+        transform: rotate(180deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="31"] {
+        transform: rotate(186deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="32"] {
+        transform: rotate(192deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="33"] {
+        transform: rotate(198deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="34"] {
+        transform: rotate(204deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="35"] {
+        transform: rotate(210deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="36"] {
+        transform: rotate(216deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="37"] {
+        transform: rotate(222deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="38"] {
+        transform: rotate(228deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="39"] {
+        transform: rotate(234deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="40"] {
+        transform: rotate(240deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="41"] {
+        transform: rotate(246deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="42"] {
+        transform: rotate(252deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="43"] {
+        transform: rotate(258deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="44"] {
+        transform: rotate(264deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="45"] {
+        transform: rotate(270deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="46"] {
+        transform: rotate(276deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="47"] {
+        transform: rotate(282deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="48"] {
+        transform: rotate(288deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="49"] {
+        transform: rotate(294deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="50"] {
+        transform: rotate(300deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="51"] {
+        transform: rotate(306deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="52"] {
+        transform: rotate(312deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="53"] {
+        transform: rotate(318deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="54"] {
+        transform: rotate(324deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="55"] {
+        transform: rotate(330deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="56"] {
+        transform: rotate(336deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="57"] {
+        transform: rotate(342deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="58"] {
+        transform: rotate(348deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="59"] {
+        transform: rotate(354deg); }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--second[data-second="60"] {
+        transform: rotate(360deg); }
 
 /*# sourceMappingURL=clock.css.map */

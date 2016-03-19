@@ -4,7 +4,6 @@
 * Special thanks goes to: http://www.idiotinside.com/2015/04/12/create-a-analog-clock-using-css-jquery/
 *
 */
-
 .minimalist-clock {
 
   $_bg: #FFF;
@@ -54,6 +53,20 @@
       background: $_color;
       transform-origin: 100% 50%;
       border-radius: $_hour-width 0 0 $_hour-width;
+
+      @for $_hours from 1 through 12 {
+        $_deg: ($_hours * 5 * 6 + 90);
+        &[data-hour="#{$_hours}"] {
+          transform: rotate(#{$_deg}deg);
+        }
+      }
+
+      @for $_hours from 13 through 24 {
+        $_deg: (($_hours - 12) * 5 * 6 + 90);
+        &[data-hour="#{$_hours}"] {
+          transform: rotate(#{$_deg}deg);
+        }
+      }
     }
 
     .minimalist-clock--minute {
@@ -67,6 +80,13 @@
       background: $_color;
       transform-origin: 50% 100%;
       border-radius: $_minute-width $_minute-width 0 0;
+
+      @for $_minutes from 1 through 60 {
+        $_deg: ($_minutes * 6);
+        &[data-minute="#{$_minutes}"] {
+          transform: rotate(#{$_deg}deg);
+        }
+      }
     }
 
     .minimalist-clock--second {
@@ -79,6 +99,13 @@
       padding: 40% $_second-width 0;
       background: $_color;
       transform-origin: 50% 100%;
+
+      @for $_seconds from 1 through 60 {
+        $_deg: ($_seconds * 6);
+        &[data-second="#{$_seconds}"] {
+          transform: rotate(#{$_deg}deg);
+        }
+      }
     }
 
   }

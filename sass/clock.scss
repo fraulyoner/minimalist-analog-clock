@@ -4,26 +4,26 @@
 * Special thanks goes to: http://www.idiotinside.com/2015/04/12/create-a-analog-clock-using-css-jquery/
 *
 */
+
+$minimalist-clock-bg: #FFF;
+$minimalist-clock-color: #6F90A2;
+
+$minimalist-clock-size: 180px;
+$minimalist-clock-circle-width: 8px;
+$minimalist-clock-face-width: 12px;
+$minimalist-clock-hour-width: 4px;
+$minimalist-clock-minute-width: 3px;
+$minimalist-clock-second-width: 1px;
+
 .minimalist-clock {
 
-  $_bg: #FFF;
-  $_color: #6F90A2;
-
-  $_size: 180px;
-  $_width: 8px;
-
-  $_face-width: 12px;
-  $_hour-width: 4px;
-  $_minute-width: 3px;
-  $_second-width: 1px;
-
-  width: $_size;
-  height: $_size;
+  width: $minimalist-clock-size;
+  height: $minimalist-clock-size;
   margin: 0 auto;
   position: relative;
-  border: $_width solid $_color;
+  border: $minimalist-clock-circle-width solid $minimalist-clock-color;
   border-radius: 50%;
-  background: $_bg;
+  background: $minimalist-clock-bg;
 
   .minimalist-clock--face {
     width: 100%;
@@ -33,11 +33,11 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      width: $_face-width;
-      height: $_face-width;
-      margin: -1*$_face-width/2 0 0 -1*$_face-width/2;
-      background: $_color;
-      border-radius: $_face-width/2;
+      width: $minimalist-clock-face-width;
+      height: $minimalist-clock-face-width;
+      margin: -1*$minimalist-clock-face-width/2 0 0 -1*$minimalist-clock-face-width/2;
+      background: $minimalist-clock-color;
+      border-radius: $minimalist-clock-face-width/2;
       content: "";
       display: block;
     }
@@ -48,13 +48,13 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      margin: -1*$_hour-width 0 -1*$_hour-width -25%;
-      padding: $_hour-width 0 $_hour-width 25%;
-      background: $_color;
+      margin: -1*$minimalist-clock-hour-width 0 -1*$minimalist-clock-hour-width -25%;
+      padding: $minimalist-clock-hour-width 0 $minimalist-clock-hour-width 25%;
+      background: $minimalist-clock-color;
       transform-origin: 100% 50%;
-      border-radius: $_hour-width 0 0 $_hour-width;
+      border-radius: $minimalist-clock-hour-width 0 0 $minimalist-clock-hour-width;
 
-      @for $_hours from 1 through 12 {
+      @for $_hours from 0 through 12 {
         $_deg: ($_hours * 5 * 6 + 90);
         &[data-hour="#{$_hours}"] {
           transform: rotate(#{$_deg}deg);
@@ -75,11 +75,11 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      margin: -40% -1*$_minute-width 0;
-      padding: 40% $_minute-width 0;
-      background: $_color;
+      margin: -40% -1*$minimalist-clock-minute-width 0;
+      padding: 40% $minimalist-clock-minute-width 0;
+      background: $minimalist-clock-color;
       transform-origin: 50% 100%;
-      border-radius: $_minute-width $_minute-width 0 0;
+      border-radius: $minimalist-clock-minute-width $minimalist-clock-minute-width 0 0;
 
       @for $_minutes from 1 through 60 {
         $_deg: ($_minutes * 6);
@@ -95,9 +95,9 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      margin: -40% -1*$_second-width 0 0;
-      padding: 40% $_second-width 0;
-      background: $_color;
+      margin: -40% -1*$minimalist-clock-second-width 0 0;
+      padding: 40% $minimalist-clock-second-width 0;
+      background: $minimalist-clock-color;
       transform-origin: 50% 100%;
 
       @for $_seconds from 1 through 60 {

@@ -37,6 +37,8 @@
       background: #6F90A2;
       transform-origin: 100% 50%;
       border-radius: 4px 0 0 4px; }
+      .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="0"] {
+        transform: rotate(90deg); }
       .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="1"] {
         transform: rotate(120deg); }
       .minimalist-clock .minimalist-clock--face .minimalist-clock--hour[data-hour="2"] {

@@ -6,7 +6,8 @@
     "Aljona Murygina <aljona.mu@gmail.com>"
   ],
   "main": [
-    "css/clock.css"
+    "css/clock.css",
+    "sass/clock.scss"
   ],
   "license": "MIT",
   "ignore": [

@@ -20,6 +20,14 @@ module.exports = function (grunt) {
       }
     },
 
+    cssmin: {
+      target: {
+        files: {
+          'css/clock.min.css': 'css/clock.css'
+        }
+      }
+    },
+
     watch: {
       demo: {
         files: ['demo/*.html', 'demo/*.css', 'css/*.css'],
@@ -50,10 +58,19 @@ module.exports = function (grunt) {
 
   });
 
-  grunt.registerTask('default', [
+  grunt.registerTask('package', [
     'sass',
+    'cssmin'
+  ]);
+
+  grunt.registerTask('serve', [
+    'package',
     'connect',
     'watch'
+  ]);
+
+  grunt.registerTask('default', [
+    'package'
   ]);
 
 };

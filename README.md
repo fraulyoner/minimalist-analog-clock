@@ -69,5 +69,7 @@ This will ensure that [Grunt](http://gruntjs.com) is installed. This allows you 
 Simple run:
 
 ```sh
-> grunt
+> grunt serve
 ```
+
+For further details take a look at the `Gruntfile.js`.

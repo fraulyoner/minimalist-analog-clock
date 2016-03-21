@@ -18,6 +18,7 @@
     "sass",
     "Gruntfile.js",
     "package.json",
-    "README.md"
+    "README.md",
+    "CHANGES.md"
   ]
 }

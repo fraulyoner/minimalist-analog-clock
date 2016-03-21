@@ -1,6 +1,6 @@
 # Minimalist Analog Clock
 
-This little library provides a CSS file to display a simple minimalist analog clock.
+This little library provides a CSS only solution to display a simple static analog clock.
 
 ![Minimalist Analog Clock](minimalist_clock.png)
 
@@ -36,6 +36,25 @@ If you are interested in only hour hand and minute hand, just omit the `data-sec
     <div class="minimalist-clock--second"></div>
   </div>
 </div>
+```
+
+If you want the clock to be updated automatically, you have to provide a few lines of Javascript. Just update the
+`data`-attributes regularly:
+
+```javascript
+(function () {
+
+  window.setInterval(function () {
+    var date = new Date();
+
+    var clock = document.getElementsByClassName('minimalist-clock')[0];
+
+    clock.setAttribute('data-hour', date.getHours());
+    clock.setAttribute('data-minute', date.getMinutes());
+    clock.setAttribute('data-second', date.getSeconds());
+  }, 1000);
+
+})();
 ```
 
 ## Development

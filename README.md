@@ -29,11 +29,10 @@ If you are interested in only hour hand and minute hand, just omit the `data-sec
 `minimalist-clock--second` class:
 
 ```html
-<div class="minimalist-clock" data-hour="13" data-minute="37" data-second="0">
+<div class="minimalist-clock" data-hour="13" data-minute="37">
   <div class="minimalist-clock--face">
     <div class="minimalist-clock--hour"></div>
     <div class="minimalist-clock--minute"></div>
-    <div class="minimalist-clock--second"></div>
   </div>
 </div>
 ```

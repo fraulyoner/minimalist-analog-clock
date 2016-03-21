@@ -12,8 +12,8 @@ The minimalist analog clock package can be installed via [Bower](http://bower.io
 > bower install --save minimalist-analog-clock
 ```
 
-Include the provided `clock.css` file in your project to display an analog clock for the following HTML
-structure:
+Include the provided `clock.css` or `clock.min.css` file in your project to display an analog clock for the following
+HTML structure:
 
 ```html
 <div class="minimalist-clock" data-hour="13" data-minute="37" data-second="0">

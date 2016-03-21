@@ -15,10 +15,10 @@
     "node_modules",
     "bower_components",
     "demo",
-    "sass",
     "Gruntfile.js",
     "package.json",
     "README.md",
-    "CHANGES.md"
+    "CHANGES.md",
+    "LICENSE"
   ]
 }
